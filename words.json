@@ -1,14 +1,50 @@
 {
   "units": [
     {
-      "id": 1,
-      "title": "Sentence 01",
-      "words": [
-        { "w": "essentially",   "def": "本质上" },
-        { "w": "theory",        "def": "理论" },
-        { "w": "abstract",      "def": "抽象的" }
-      ]
-    },
+  "id": 1,
+  "title": "Sentence 01",
+  "words": [
+    { "w": "essentially",        "def": "adv. 本质上；基本上" },
+    { "w": "theory",             "def": "n. 理论；原理" },
+    { "w": "abstract",           "def": "adj. 抽象的；抽象派的" },
+    { "w": "symbolic",           "def": "adj. 象征的；符号的" },
+    { "w": "representation",     "def": "n. 代表；表现" },
+    { "w": "conceive",           "def": "v. 设想；构想" },
+
+    { "w": "accent",             "def": "n. 腔调；口音" },
+    { "w": "alphabet",           "def": "n. 字母表" },
+    { "w": "antonym",            "def": "n. 反义词" },
+    { "w": "consonant",          "def": "n. 辅音" },
+    { "w": "diction",            "def": "n. 措辞；用语" },
+    { "w": "intricate",          "def": "adj. 错综复杂的；复杂难懂的" },
+    { "w": "language acquisition","def": "n. 语言习得" },
+    { "w": "oral",               "def": "adj. 口头的；口述的" },
+    { "w": "root",               "def": "n. 词根" },
+    { "w": "suffix",             "def": "n. 后缀；词尾" },
+    { "w": "affix",              "def": "n. 词缀" },
+    { "w": "prefix",             "def": "n. 前缀" },
+    { "w": "syllable",           "def": "n. 音节" },
+    { "w": "synonym",            "def": "n. 同义词" },
+    { "w": "verbal",             "def": "adj. 文字的；（与）动词（有关）的" },
+    { "w": "vocabulary",         "def": "n. 词汇" },
+    { "w": "vowel",              "def": "n. 元音" },
+
+    { "w": "bilingual",          "def": "adj. （说）两种语言的" },
+    { "w": "cognitive",          "def": "adj. 认知的；认识的" },
+    { "w": "corpus",             "def": "n. 文集；语料库" },
+    { "w": "dialect",            "def": "n. 方言；土语" },
+    { "w": "language family",    "def": "n. 语系" },
+    { "w": "lexicology",         "def": "n. 词汇学" },
+    { "w": "linguistic",         "def": "adj. 语言学的" },
+    { "w": "linguistics",        "def": "n. 语言学" },
+    { "w": "linguist",           "def": "n. 语言学家" },
+    { "w": "morphology",         "def": "n. 形态学" },
+    { "w": "phonetic",           "def": "adj. 语音的" },
+    { "w": "phonology",          "def": "n. 音韵学" },
+    { "w": "semantics",          "def": "n. 语义学" },
+    { "w": "syntax",             "def": "n. 句法" }
+  ]
+},
     {
       "id": 2,
       "title": "Sentence 02",
