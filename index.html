@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>100句 · 单词自测（极简版）</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="appbar">
+    <h1>100句 · 单词自测</h1>
+  </header>
+
+  <main>
+    <!-- 单元选择 -->
+    <section id="pick" class="card">
+      <h2>选择单元</h2>
+      <div id="units" class="grid"></div>
+      <p id="load-msg" class="msg"></p>
+    </section>
+
+    <!-- 测试区 -->
+    <section id="quiz" class="card hidden">
+      <div class="row">
+        <button id="back" class="btn small">返回</button>
+        <div id="bar" class="muted"></div>
+      </div>
+
+      <div id="card" class="flashcard">
+        <div id="word" class="word">—</div>
+        <div id="def" class="def hidden">—</div>
+      </div>
+
+      <div id="actions" class="actions">
+        <button id="unknown" class="btn secondary">不知道</button>
+        <button id="known" class="btn primary">知道</button>
+      </div>
+
+      <div id="cont-wrap" class="actions hidden">
+        <button id="continue" class="btn primary wide">继续</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
