@@ -1,0 +1,49 @@
+{
+  "name": "toefl-cards-lite-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "description": "TOEFL Cards Lite desktop app",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3",
+    "express": "^4.21.2"
+  },
+  "build": {
+    "appId": "com.toefl.cards.lite",
+    "productName": "TOEFL Cards Lite",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js"
+    ],
+    "extraResources": [
+      {
+        "from": "../index.html",
+        "to": "public/index.html"
+      },
+      {
+        "from": "../app.js",
+        "to": "public/app.js"
+      },
+      {
+        "from": "../styles.css",
+        "to": "public/styles.css"
+      },
+      {
+        "from": "../words.json",
+        "to": "public/words.json"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  }
+}
